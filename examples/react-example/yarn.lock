@@ -2865,6 +2865,13 @@
   dependencies:
     "@babel/runtime" "^7.12.5"
 
+"@thefat32/aws-amplify-lex-provider-v2@^1.0.2":
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/@thefat32/aws-amplify-lex-provider-v2/-/aws-amplify-lex-provider-v2-1.0.2.tgz#a2eebd56e2c3424ae22e818aaee0ce6cd5461a90"
+  integrity sha512-5aI6C55vixJUfD+Doo/sL73gdTll+F3jNDy1UeTiQNRvFI2J0k/Vuxjg6IFhM+087bYhui+Dj0rcMGb34bzq7w==
+  dependencies:
+    pako "^2.0.4"
+
 "@types/anymatch@*":
   version "1.3.1"
   resolved "https://registry.yarnpkg.com/@types/anymatch/-/anymatch-1.3.1.tgz#336badc1beecb9dacc38bea2cf32adf627a8421a"
