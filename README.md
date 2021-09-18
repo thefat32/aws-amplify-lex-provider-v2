@@ -37,7 +37,7 @@ Interactions.addPluggable(new AWSLex2Provider());
 // index.tsx
 import { Amplify } from '@aws-amplify/core';
 import { Interactions } from '@aws-amplify/interactions';
-import { AWSLex2Provider } from './service/interactions/Providers/AWSLex2Provider';
+import AWSLex2Provider from '@thefat32/aws-amplify-lex-provider-v2';
 import awsmobile from 'aws-exports'
 
 Interactions.addPluggable(new AWSLex2Provider());
