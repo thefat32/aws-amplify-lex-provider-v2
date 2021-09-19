@@ -5,6 +5,8 @@ on:
       - 'master'
     paths:
       - 'CHANGELOG.md'
+    tags-ignore:
+      - '**'
   pull_request:
     braches:
       - 'master'
