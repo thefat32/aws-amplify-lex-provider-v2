@@ -1,6 +1,6 @@
 {
   "name": "@thefat32/aws-amplify-lex-provider-v2",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Lex V2 provider for Amplify Interactions",
   "author": "Lucas Picchi",
   "license": "MIT",
@@ -42,10 +42,10 @@
     "test": "jest"
   },
   "dependencies": {
+    "@aws-sdk/client-lex-runtime-v2": "^3.31.0",
     "pako": "^2.0.4"
   },
   "devDependencies": {
-    "@aws-sdk/client-lex-runtime-v2": "^3.31.0",
     "@babel/cli": "^7.15.4",
     "@babel/core": "^7.15.5",
     "@babel/preset-env": "^7.15.6",
