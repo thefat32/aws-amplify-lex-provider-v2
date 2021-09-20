@@ -37,9 +37,11 @@ Interactions.addPluggable(new AWSLex2Provider());
 // index.tsx
 import { Amplify } from '@aws-amplify/core';
 import { Interactions } from '@aws-amplify/interactions';
+import Auth from '@aws-amplify/auth';
 import AWSLex2Provider from '@thefat32/aws-amplify-lex-provider-v2';
 import awsmobile from 'aws-exports'
 
+Amplify.register(Auth);
 Interactions.addPluggable(new AWSLex2Provider());
 
 Amplify.Logger.LOG_LEVEL = 'DEBUG';
